@@ -1,0 +1,49 @@
+.collapse{
+  justify-content: flex-end;
+}
+
+img.card-img-top.m-3.shadow.rounded{
+  transition: 0.3s;
+}
+
+img.card-img-top.m-3.shadow.rounded:hover {
+  transform: scale(1.1);
+  
+}
+
+.modal-content{
+  padding: 25px
+}
+
+.delete{
+  color: darkgray;
+}
+
+.cartbtn{
+  background: white;
+  border: none;
+  font-weight: bold;
+  
+}
+
+.cartinput{
+  width:45px;
+  margin: 5px;
+  border: lightgrey 2px solid
+}
+
+button:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(41, 44, 46, 0.25);
+}
+
+
+input:focus {
+  outline: 0 !important;
+
+}
+
+.price{
+  font-weight: 500;
+  font-size: x-large;
+}
